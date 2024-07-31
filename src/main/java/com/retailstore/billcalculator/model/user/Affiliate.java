@@ -8,6 +8,9 @@ import java.time.LocalDate;
 
 @JsonTypeName("affiliate")
 public class Affiliate extends User {
+    public Affiliate() {
+        // Default constructor required for Jackson
+    }
     public Affiliate(int id, String name, LocalDate registrationDate) {
         super(id, name, registrationDate, new AffiliateDiscountPolicy());
     }
