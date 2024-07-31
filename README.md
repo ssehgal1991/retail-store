@@ -29,6 +29,7 @@ Method: POST
 Request Body:
 {
 "user": {
+"type": "employee",
 "name": "John Doe",
 "registrationDate": "2021-01-15"
 },
