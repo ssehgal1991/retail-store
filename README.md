@@ -17,21 +17,26 @@ Java Development Kit (JDK) 17: Ensure **JDK 17** is installed on your system.
 
 ## Build the Project
 To build the project and resolve dependencies, run:
+
 mvn clean install
 
 ## Running the Application
 You can start the application using Maven:
+
 mvn spring-boot:run
 
 ## Testing
 To execute the unit tests against the business logic service classes please run the following maven command:
+
 mvn test
 
 ## To generate a code coverage report using JaCoCo, use the following Maven command:
+
 mvn clean test jacoco:report
 
 ## Example Request Using curl
 Request with discountType:
+
 URL: http://localhost:8080/api/v1/discount/calculate?discountType=employee
 
 Method: POST
