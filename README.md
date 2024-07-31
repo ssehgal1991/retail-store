@@ -18,7 +18,6 @@ To execute the unit tests against the business logic service classes please run 
 mvn test
 
 ## To generate a code coverage report using JaCoCo, use the following Maven command:
-The coverage report will be generated in the target/site/jacoco directory. Open index.html in a browser to view the coverage report.
 mvn clean test jacoco:report
 
 ## Example Request Using curl
