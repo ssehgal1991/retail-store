@@ -49,3 +49,7 @@ Request Body:
 
 The response is net payable amount:
 659.5
+
+##Implementation and UML:-
+<img width="731" alt="UML" src="https://github.com/user-attachments/assets/7a15d67d-5e1e-4849-9a48-87b55657c96b">
+
