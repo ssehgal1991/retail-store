@@ -11,8 +11,9 @@ On a retail website, the following discounts apply:
 
 
 ## Prerequisites
-Java Development Kit (JDK) 17: Ensure JDK 17 is installed on your system.
-Maven: Maven is used for project build and dependency management. Install it if it's not already available on your machine.
+Java Development Kit (JDK) 17: Ensure **JDK 17** is installed on your system.
+
+**Maven**: Maven is used for project build and dependency management. Install it if it's not already available on your machine.
 
 ## Build the Project
 To build the project and resolve dependencies, run:
